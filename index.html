@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,55 @@
     <link rel="stylesheet" href="style.css">
     <title>Boxception</title>
 </head>
+
 <body>
     <h1>Boxception (Div Version)</h1>
     <div id="one">
-    <div id="two">
-    <div id="three"></div></div></div>
+        <div id="two">
+            <div id="three"></div>
+        </div>
+    </div>
+
+    <h1> Boxception (Table Version)</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td id="mostleft" class="first"></td>
+                <td class="first"></td>
+                <td class="first"></td>
+                <td class="first"></td>
+                <td id="mostright" class="first"></td>
+            </tr>
+            <tr>
+                <td id="mostleft"></td>
+                <td id="left" class="second"></td>
+                <td class="second"></td>
+                <td id="right" class="second"></td>
+                <td id="mostright"></td>
+            </tr>
+            <tr>
+                <td id="mostleft"></td>
+                <td id="left"></td>
+                <td id="center"></td>
+                <td id="right"></td>
+                <td id="mostright"></td>
+            </tr>
+            <tr>
+                <td id="mostleft"></td>
+                <td id="left" class="fourth"></td>
+                <td class="fourth"></td>
+                <td id="right" class="fourth"></td>
+                <td id="mostright"></td>
+            </tr>
+            <tr>
+                <td id="mostleft" class="fifth"></td>
+                <td class="fifth"></td>
+                <td class="fifth"></td>
+                <td class="fifth"></td>
+                <td id="mostright" class="fifth"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
